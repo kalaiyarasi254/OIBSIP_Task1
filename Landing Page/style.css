@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header Section */
+  .header {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav img {
+    width: 200px;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links ul li {
+    margin-left: 15px;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #e97911;
+  }
+  
+  .description {
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .description h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e97911;
+    border: none;
+    padding: 12px 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #c8690a;
+  }
+  
+  /* Courses Section */
+  .courses {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .courses h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .courses p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #777;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course-col {
+    flex-basis: 30%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-col h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .course-col p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  /* Facilities Section */
+  .facilities {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .facilities h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .facilities p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #777;
+  }
+  
+  .facilities-col {
+    flex-basis: 30%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facilities-col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .facilities-col h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .facilities-col p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .testimonials h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #777;
+  }
+  
+  .testimonial-col {
+    flex-basis: 44%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 5%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-col img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .testimonial-col p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #777;
+  }
+  
+  .testimonial-col h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .testimonial-col .bi {
+    color: #e97911;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #19191a;
+  }
+  
+  footer h4 {
+    color: #e97911;
+    font-size: 14px;
+  }
+  
+  footer h4 a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  footer h4 a:hover {
+    color: #e97911;
+    transition: color 0.3s ease;
+  }
+  
+  
+  
